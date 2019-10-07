@@ -6,4 +6,12 @@ TODO LIST
 - the website design is based on the sakura knowleage.
 - database mysql
 
+installation
 
+```
+go get -u github.com/gin-gonic/gin
+```
+
+```
+go get github.com/kardianos/govendor
+```
