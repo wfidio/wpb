@@ -79,8 +79,8 @@
 		{
 			"checksumSHA1": "zkyE0EIXklwHDTkX0tRp42dp4mI=",
 			"path": "golang.org/x/sys/unix",
-			"revision": "5f54ce54270977bfbd7353a37e64c13d6bd6c9c9",
-			"revisionTime": "2019-10-06T21:41:51Z"
+			"revision": "ef33b2fb2c414dca4bfcf6ca59cbd1d9ad00703d",
+			"revisionTime": "2019-10-06T22:04:36Z"
 		},
 		{
 			"checksumSHA1": "P/k5ZGf0lEBgpKgkwy++F7K1PSg=",
@@ -95,5 +95,5 @@
 			"revisionTime": "2019-10-02T18:33:36Z"
 		}
 	],
-	"rootPath": "github.com/wfidio/project"
+	"rootPath": "github.com/wfidio/wpb"
 }

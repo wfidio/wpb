@@ -10,6 +10,7 @@ TODO: Fill out this long description.
 ## Table of Contents
 
 - [Background](#background)
+- [TODO](#TODO)
 - [Install](#install)
 - [Usage](#usage)
 - [API](#api)
@@ -19,11 +20,25 @@ TODO: Fill out this long description.
 
 ## Background
 
+## TODO
+- find out a suitable framework. I may use programming language go as my backend language. Try out to use the front-end framework React.
+- the website design is based on the sakura knowleage.
+- database mysql.
+- fulltext search solr.
+TODO: add todo list
+
 ## Install
 
+web framwork using [gin-gonic](https://github.com/gin-gonic/gin)
+```
+go get -u github.com/gin-gonic/gin
 ```
 
+vendor tool [govendor](https://github.com/kardianos/govendor)
 ```
+go get github.com/kardianos/govendor
+```
+
 
 ## Usage
 
