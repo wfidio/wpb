@@ -13,11 +13,16 @@ func setupRouter() *gin.Engine {
 	// gin.DisableConsoleColor()
 	r := gin.Default()
 
-	
 	// Ping test
 	r.GET("/ping", func(c *gin.Context) {
 		c.String(http.StatusOK, "pong")
 	})
+
+	//index
+
+	// r.GET("/",func(c *gin.Context){
+	// 	c.HTML(http.StatusOK,"index",gin.H{})
+	// })
 
 	// Get user value
 	r.GET("/user/:name", func(c *gin.Context) {
@@ -29,6 +34,17 @@ func setupRouter() *gin.Engine {
 			c.JSON(http.StatusOK, gin.H{"user": user, "status": "no value"})
 		}
 	})
+
+	// login
+	// r.POST("/user/login",func(c *gin.Context){
+
+	// })
+
+	// article
+
+	// r.GET("/article/:id",func(c *gin.Context){
+
+	// })
 
 	// Authorized group (uses gin.BasicAuth() middleware)
 	// Same than:
@@ -61,6 +77,9 @@ func setupRouter() *gin.Engine {
 
 func main() {
 	r := setupRouter()
+
+	//r.LoadHTMLFiles("view/*.html")
+
 	// Listen and Server in 0.0.0.0:8080
 	r.Run(":8080")
 }
