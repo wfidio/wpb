@@ -1,0 +1,26 @@
+{
+  "name": "wpb",
+  "version": "1.0.0",
+  "description": "personal blog for wfidio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wfidio/wpb.git"
+  },
+  "author": "wfidio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wfidio/wpb/issues"
+  },
+  "homepage": "https://github.com/wfidio/wpb#readme",
+  "devDependencies": {
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9"
+  },
+  "dependencies": {
+    "vue": "^2.6.10"
+  }
+}

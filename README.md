@@ -25,6 +25,9 @@ TODO: Fill out this long description.
 - the website design is based on the sakura knowleage.
 - database mysql.
 - fulltext search solr.
+- using the vue.js as the frontend framework.
+- webpack
+
 TODO: add todo list
 
 ## Install
