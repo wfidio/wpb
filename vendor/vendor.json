@@ -59,6 +59,12 @@
 			"revisionTime": "2019-10-03T00:19:46Z"
 		},
 		{
+			"checksumSHA1": "HRp0CC4PScjjvYHb39YCcPspu9I=",
+			"path": "github.com/mattn/go-sqlite3",
+			"revision": "3f45aefa8dc8bbdd97619dd2765f864972f3310e",
+			"revisionTime": "2019-10-08T08:38:25Z"
+		},
+		{
 			"checksumSHA1": "ZTcgWKWHsrX0RXYVXn5Xeb8Q0go=",
 			"path": "github.com/modern-go/concurrent",
 			"revision": "bacd9c7ef1dd9b15be4a9909b8ac7a4e313eec94",
